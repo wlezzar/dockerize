@@ -78,6 +78,7 @@ func generateFile(templatePath, destPath string) bool {
 		"parseUrl": parseUrl,
 		"atoi":     strconv.Atoi,
 		"add":      add,
+		"hasPrefix":strings.HasPrefix, 
 	})
 
 	if len(delims) > 0 {
